@@ -1,0 +1,13 @@
+
+The Sequential class: tf.keras.Sequential(layers=None, name=None)
+  - It holds the layers of the NN
+  - layers is a sequence of Layers
+
+Keras layers API:
+
+  Layer activation functions:
+    - relu function... max(x, 0)
+    - sigmoid function... sigmoid(x) = 1 / (1 + exp(-x))
+    - softmax function...
+      
+      model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[1])])
